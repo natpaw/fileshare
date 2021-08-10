@@ -1,0 +1,22 @@
+header{
+	background: black;
+	color: white;
+	text-align: center
+	
+}
+body{
+	background: black;
+	color: white;
+}
+#left {
+
+	float: left;
+}
+#right {
+
+	float: right;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
