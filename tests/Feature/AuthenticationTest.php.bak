@@ -43,7 +43,7 @@ class AuthenticationTest extends TestCase
         $this->assertGuest();
     }
 	
-	public function test_say_hello_to_authenticated_user()
+	public function test_hello_authenticated_username()
     {
 		$user = User::factory()->create([
 			'name' => 'Alice',

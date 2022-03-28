@@ -30,7 +30,7 @@ class PostController extends Controller
         ->where('title', 'LIKE', "%{$search}%")
         ->orWhere('body', 'LIKE', "%{$search}%")
 		->orWhere('short', 'LIKE', "%{$search}%")
-        ->paginate(3);
+        ->->paginate(3);
 
      return view('main', [
 		'posts' => $posts,

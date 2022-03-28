@@ -1,2 +1,5 @@
-Simple forum project
-Laravel 8
+File-Share
+
+Web resource for storing and downloading files. 
+
+Framework: Laravel 8

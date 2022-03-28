@@ -16,7 +16,7 @@ class Post extends Model
 	
 	public function author()
 	{
-		return $this->belongsTo(User::Class, 'user_id');
+		return $this->belongsTo(User::Class, 'user_id')->paginate(3);
 	}
 	
 	public function comments()

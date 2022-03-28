@@ -33,6 +33,6 @@
 		</article>
 		</p>		
 	@endforeach
-	{{$posts->links()}}
+	{{$posts->links('pagination::bootstrap-4')}}
 	@endif
 </x-layout>

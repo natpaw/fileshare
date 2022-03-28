@@ -1,12 +1,12 @@
 header{
-	background: black;
+	background: grey;
 	color: white;
 	text-align: center
 	
 }
 body{
-	background: black;
-	color: white;
+	background: grey;
+	color: black;
 }
 #left {
 
@@ -19,4 +19,20 @@ body{
 a {
   text-decoration: none;
   color: white;
+
+}
+#topbanner{
+	height: 10em;
+        background: url(img/topbanner.jpg) repeat-y;
+        background-size: cover;
+}
+
+ul {
+    	margin: 0; 
+    	padding: 4px; 
+}
+ul li {
+    	display: inline; 
+   	margin-right: 5px; 
+
 }

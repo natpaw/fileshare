@@ -43,13 +43,12 @@
 		</article>
 		
 		@endforeach
-		@auth
 		<form method = "post" action="/comment"> 
 		@csrf
 		<p>Ваш коментар:</p>
 		<p><textarea rows="10" cols="45" name="comment"></textarea></p>
 		<input type="hidden" name="post" value={{ $post->id }}>
 		<input type="submit" value="Відправити"></form >
-		@endauth
+
 
 </x-layout>

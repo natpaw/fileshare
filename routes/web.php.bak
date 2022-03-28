@@ -42,7 +42,7 @@ Route::get('posts/{post:slug}/download', function (Post $post) {
 
 Route::get('authors/{author:name}', function (User $author) {
     return view('main', [
-		'posts' => $author->posts()->paginate(3),
+		'posts' => $author->posts->paginate(3),
 	]);
 });
 
